@@ -14,7 +14,7 @@ end
 
 
 def move(board, input, x_or_o = "X")
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = board
   index = input_to_index(input)
   board[index] = x_or_o
   board
